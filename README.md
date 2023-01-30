@@ -64,7 +64,7 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     error = RMS_error_calculator(sin, xx, 10)
     
     ```
-- `RMS_error_calculator_anti` function calculates RMS error $\hat{e}$ for some target function and an *antisymmetric* polynomial with $2`pm`+1$ order. 
+- `RMS_error_calculator_anti` function calculates RMS error $\hat{e}$ for some target function and an *antisymmetric* polynomial with $2$ `pm` $ +1$ order. 
     
     Inputs:
     
@@ -84,4 +84,4 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     ```
 ## Usage
 
-All the problem descriptions and solutions are explained and plotted inside the notebook. Anyone could run all the cells and see the output. Moreover, an HTML and a PDF version have been provided to show the results produced on the author's own computer for comparison.
+All the problem descriptions and solutions are explained and plotted inside the ipython notebook. Anyone could run all the cells and see the output. Moreover, an HTML and a PDF version have been provided to show the results produced on the author's own computer for comparison.

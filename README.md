@@ -2,14 +2,14 @@
 
 # Algorithm for Least Square Fit
 
-**Goal:** Given a target function $f_{\*}(x)$ we want to make a approximate $p$-degree polynomial $f(x) = \sum\_{i=0}^{p}{b\_i x^i}$. Next we evaluate $(x_{(1)},x_{(2)},\cdots,x_{(n)})$, $n\geq p$ points are beinge evaluated for both $f(x)$ and $f_{\*}(x)$, so that the $RMS$ error got minimized 
+**Goal:** Given a target function $f\_{\*}(x)$ we want to make a approximate $p$-degree polynomial $f(x) = \sum\_{i=0}^{p}{b\_i x^i}$. Next we evaluate $(x\_{(1)},x\_{(2)},\cdots,x\_{(n)})$, $n\geq p$ points are beinge evaluated for both $f(x)$ and $f_{\*}(x)$, so that the $RMS$ error got minimized 
 
-$$ \hat{e} = \sqrt{\sum_{i=0}^{n}\frac{\left(f(x_{(i)})-f_{\*}(x_{(i)})\right)^2}{n}} $$
+$$ \hat{e} = \sqrt{\sum\_{i=0}^{n}\frac{\left(f(x\_{(i)})-f\_{\*}(x\_{(i)})\right)^2}{n}} $$
 
-Lets define $\bar{b} = \left(\begin{matrix}b_0\\ b_1\\ \vdots\\ b_p \end{matrix}\right)$, $\bar{y} = \left(\begin{matrix}f_\*(x_{(0)})\\ f_\*(x_{(1)})\\ \vdots \\ f_\*(x_{(n)})\end{matrix}\right)$ and 
+Lets define $\bar{b} = \left(\begin{matrix}b\_0\\ b\_1\\ \vdots\\ b\_p \end{matrix}\right)$, $\bar{y} = \left(\begin{matrix}f\_\*(x\_{(0)})\\ f\_\*(x\_{(1)})\\ \vdots \\ f\_\*(x\_{(n)})\end{matrix}\right)$ and 
 
 
-$\bar{A} = \left(\begin{matrix} 1 & x_{(1)} & \cdots & x^{p}\_(1)} \\ 1 & x\_{(2)} & \cdots & x^{p}\_{(2)}\\ \\ \vdots & \ddots & \ddots & \vdots\\ 1 \& x\_{(n)} \& \cdots & x^{p}\_{(n)} \end{matrix} \right)$.
+$\bar{A} = \left(\begin{matrix} 1 & x\_{(1)} & \cdots & x^{p}\_(1)} \\ 1 & x\_{(2)} & \cdots & x^{p}\_{(2)}\\ \\ \vdots & \ddots & \ddots & \vdots\\ 1 \& x\_{(n)} \& \cdots & x^{p}\_{(n)} \end{matrix} \right)$.
 
 
 We can rephrase the problem in maxtrix format like, 

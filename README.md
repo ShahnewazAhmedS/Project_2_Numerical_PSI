@@ -7,7 +7,10 @@
 $$ \hat{e} = \sqrt{\sum\_{i=0}^{n}\frac{\left(f(x\_{(i)})-f\_{\*}(x\_{(i)})\right)^2}{n}} $$
 
 Lets define 
-$$\bar{b} = \left(\begin{matrix}b\_0\\ b\_1\\ \vdots\\ b\_p \end{matrix}\right)$$, $$\bar{y} = \left(\begin{matrix}f\_\*(x\_{(0)})\\ f\_\*(x\_{(1)})\\ \vdots \\ f\_\*(x\_{(n)})\end{matrix}\right)$$ and 
+```math
+\bar{b} = \left(\begin{matrix}b\_0\\ b\_1\\ \vdots\\ b\_p \end{matrix}\right)$$, $$\bar{y} = \left(\begin{matrix}f\_\*(x\_{(0)})\\ f\_\*(x\_{(1)})\\ \vdots \\ f\_\*(x\_{(n)})\end{matrix}\right)
+```
+and 
 
 
 $$\bar{A} = \left(\begin{matrix} 1 & x\_{(1)} & \cdots & x^{p}\_(1)} \\ 1 & x\_{(2)} & \cdots & x^{p}\_{(2)}\\ \\ \vdots & \ddots & \ddots & \vdots\\ 1 \& x\_{(n)} \& \cdots & x^{p}\_{(n)} \end{matrix} \right)$$.

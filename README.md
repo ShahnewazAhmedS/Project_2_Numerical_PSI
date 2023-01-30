@@ -8,12 +8,12 @@ $$ \hat{e} = \sqrt{\sum\_{i=0}^{n}\frac{\left(f(x\_{(i)})-f\_{\*}(x\_{(i)})\righ
 
 Lets define 
 ```math
-\bar{b} = \left(\begin{matrix}b_0\\ b_1\\ \vdots\\ b_p \end{matrix}\right), \bar{y} = \left(\begin{matrix}f_\*(x_{(0)})\\ f_*(x_{(1)})\\ \vdots \\ f_*(x_{(n)})\end{matrix}\right)
+\bar{b} = \left(\begin{matrix}b_0\\ b_1\\ \vdots\\ b_p \end{matrix}\right), \bar{y} = \left(\begin{matrix}f_*(x_{(0)})\\ f_*(x_{(1)})\\ \vdots \\ f_*(x_{(n)})\end{matrix}\right)
 ```
 and 
 
 ```math
-\bar{A} = \left(\begin{matrix} 1 & x_{(1)} & \cdots & x^{p}_(1)} \\ 1 & x_{(2)} & \cdots & x^{p}_{(2)}\\ \\ \vdots & \ddots & \ddots & \vdots\\ 1 \& x_{(n)} \& \cdots & x^{p}_{(n)} \end{matrix} \right).
+\bar{A} = \left(\begin{matrix} 1 & x_{(1)} & \cdots & x^{p}_{(1)} \\ 1 & x_{(2)} & \cdots & x^{p}_{(2)}\\ \\ \vdots & \ddots & \ddots & \vdots\\ 1 \& x_{(n)} \& \cdots & x^{p}_{(n)} \end{matrix} \right).
 ```
 
 We can rephrase the problem in maxtrix format like, 

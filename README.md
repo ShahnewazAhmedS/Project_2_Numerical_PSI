@@ -2,7 +2,7 @@
 
 # Algorithm for Least Square Fit
 
-**Goal:** Given a target function $f_{*}(x)$ we want to make a approximate $p$-degree polynomial $f(x) = \sum_{i=0}^{p}b_i x^i$. Next we evaluate $(x_{(1)},x_{(2)},\cdots,x_{(n)})$, $n\geq p$ points are beinge evaluated for both $f(x)$ and $f_{*}(x)$, so that the $RMS$ error got minimized 
+**Goal:** Given a target function $f_{\*}(x)$ we want to make a approximate $p$-degree polynomial $f(x) = \sum_{i=0}^{p}b_i x^i$. Next we evaluate $(x_{(1)},x_{(2)},\cdots,x_{(n)})$, $n\geq p$ points are beinge evaluated for both $f(x)$ and $f_{*}(x)$, so that the $RMS$ error got minimized 
 
 $$ \hat{e} = \sqrt{\sum_{i=0}^{n}\frac{\left(f(x_{(i)})-f_{*}(x_{(i)})\right)^2}{n}} $$
 

@@ -64,3 +64,21 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     error = RMS_error_calculator(sin, xx, 10)
     
     ```
+- `RMS_error_calculator_anti` function calculates RMS error $\hat{e}$ for some target function and an *antisymmetric* polynomial with $2`pm`+1$ order. 
+    
+    Inputs:
+    
+    * target_function: a function 𝑓star(𝑥) that is need to be approximated
+    * args           : the required arguments to evalue the target_function
+    * pm             : the order of the approximated polynomial f(x)
+    
+    Returns RMS error = √(Σ(f(x)- 𝑓star(𝑥))^2/n)
+    
+    Usuage: 
+    
+    ```
+    # target antisymmetric function is sin(x)
+    xx = LinRange(0, π/2, 100)
+    error = RMS_error_calculator_anti(sin, xx, 10)
+    
+    ```

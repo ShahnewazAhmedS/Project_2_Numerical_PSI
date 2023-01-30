@@ -10,7 +10,7 @@ f(x) = \sum_{i=0}^p{b_i x^i}.
 Next we evaluate $(x\_{(1)},x\_{(2)},\cdots,x\_{(n)})$, $n\geq p$ points are beinge evaluated for both $f(x)$ and $f_{\*}(x)$, so that the $RMS$ error got minimized 
 
 ```math
-\hat{e} = \sqrt{\sum\_{i=0}^{n}\frac{\left(f(x\_{(i)})-f\_{\*}(x\_{(i)})\right)^2}{n}}.
+\hat{e} = \sqrt{\sum_{i=0}^{n}\frac{\left(f(x_{(i)})-f_{*}(x_{(i)})\right)^2}{n}}.
 ```
 
 Lets define 

@@ -56,7 +56,7 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     
     RMS error = √(Σ(f(x)- 𝑓star(𝑥))^2/n)
     
-    Usuage: 
+    Usage: 
     
     ```
     # target function is sin(x)
@@ -74,7 +74,7 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     
     Returns RMS error = √(Σ(f(x)- 𝑓star(𝑥))^2/n)
     
-    Usuage: 
+    Usage: 
     
     ```
     # target antisymmetric function is sin(x)

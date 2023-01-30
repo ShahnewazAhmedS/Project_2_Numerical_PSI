@@ -42,3 +42,25 @@ where $\{|f_{i} \rangle\}$ and $\{|e_{i} \rangle\}$ span the $p+1$ and $n$-dimes
 $$ \bar{A}^{T} \bar{A} \bar{b} = \bar{A}^T \bar{y}$$
 
 By solving this system of equation we can find the projected vector $\vec{OC}$ in the $p+1$ dimensional vector space with basis vectors $|f_{i} \rangle, i=0, \cdots, p$. 
+
+## Key functions contained in it 
+- `RMS error` Calculation function description described here below
+"""
+    This is a simple implemetation of *RMS error* calcuation process for least square curve fitting.
+
+    * target_function: a function 𝑓star(𝑥) that is need to be approximated
+    * args           : the required arguments to evalue the target_function
+    * pmax           : the order of the approximated polynomial f(x)
+    
+    Returns RMS error = √(Σ(f(x)- 𝑓star(𝑥))^2/n)
+    
+    Usuage: 
+    
+    ```
+    # target function is sin(x)
+    xx = LinRange(0, π/2, 100)
+    error = RMS_error_calculator(sin, xx, 10)
+    
+    ```
+
+"""

@@ -82,3 +82,6 @@ By solving this system of equation we can find the projected vector $\vec{OC}$ i
     error = RMS_error_calculator_anti(sin, xx, 10)
     
     ```
+## Usage
+
+All the problem descriptions and solutions are explained and plotted inside the notebook. For usage anyone could run all the cells and see the output. Moreover, a html and pdf version has been provided to show the results produced in author's own computer for comparison.
